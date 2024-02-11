@@ -5,4 +5,8 @@
     <style name="roundedImageRounded"/>
         <item name="cornerFamily" type="color">rounded</item>
         <item name="conrnerSize" type="color">50%</item>
+
+    <style name="Floating" parent="Widget.Design.FloatingActionButton">
+        <item name="android:foreground">@drawable/floating_background</item>
+    </style>
 </resources>
